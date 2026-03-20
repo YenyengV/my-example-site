@@ -11,3 +11,9 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
 }
+
+.button {
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
