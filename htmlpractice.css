@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+.header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 45px;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    display: block;
+    transition: all 1s ease-out;
+}
+
+.nav a:hover {
+    color: lightblue;
+    transform: rotate(6deg);
+}
+
+.intro {
+    padding: 65px 45px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.intro-inner {
+    max-width: 700px;
+}
+
+.intro h1 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.intro p{
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 6px;
+    margin: 10px 0px 0px 0px;
+}
+
+.button:hover{
+    color: lightblue;
+}
+
+.features {
+    background-color: pink;
+    padding: 60px 40px;
+    
+}
+
+.features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+
+.features h2{
+    font-weight:normal;
+    margin: 0;
+}
+
+.features p{
+    line-height: 1.5rem;
+}
+
+.footer {
+    background-color:purple;
+    padding: 20px;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+
+
