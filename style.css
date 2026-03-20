@@ -16,4 +16,5 @@ h1 {
     background-color: lightblue;
     border-radius: 5px;
     text-decoration: none;
+    font-style: none;
 }
